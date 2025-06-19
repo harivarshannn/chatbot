@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+  "tag": "indian_geography",
+  "patterns": [
+    "Tell me about Indian states",
+    "What is the capital of India?",
+    "How many states are there in India?",
+    "Which rivers flow in India?",
+    "Name some Indian mountains"
+  ],
+  "responses": [
+    "India has 28 states and 8 Union territories. The capital is New Delhi.",
+    "Major rivers in India include the Ganga, Yamuna, Brahmaputra, and Godavari.",
+    "The Himalayas, Western Ghats, and Eastern Ghats are major mountain ranges in India."
+  ]
+},
+{
+  "tag": "indian_politics",
+  "patterns": [
+    "Who is the Prime Minister of India?",
+    "Tell me about Indian politics",
+    "How many members are there in Lok Sabha?",
+    "What is Rajya Sabha?",
+    "Who is the President of India?"
+  ],
+  "responses": [
+    "The current Prime Minister of India is Narendra Modi (as of 2024).",
+    "Indian politics is a multi-party system with the Parliament having two houses: Lok Sabha and Rajya Sabha.",
+    "The Lok Sabha has 545 members, and the Rajya Sabha is the upper house with 245 members."
+  ]
+},
+{
+  "tag": "space_info",
+  "patterns": [
+    "Tell me about ISRO",
+    "What is Chandrayaan?",
+    "What is a black hole?",
+    "What is a satellite?",
+    "How do rockets work?"
+  ],
+  "responses": [
+    "ISRO is India’s space agency known for missions like Chandrayaan and Mangalyaan.",
+    "Chandrayaan is India’s lunar mission, with Chandrayaan-3 being the successful soft landing.",
+    "A black hole is a region of space where gravity is so strong that nothing can escape from it."
+  ]
+},
+{
+  "tag": "daily_routine",
+  "patterns": [
+    "What should I do in the morning?",
+    "Give me a good daily routine",
+    "How to stay productive?",
+    "Tips for a healthy lifestyle",
+    "Best time to wake up?"
+  ],
+  "responses": [
+    "Start your day with exercise, followed by a healthy breakfast and planning your tasks.",
+    "A consistent sleep schedule, hydration, and time blocking help productivity.",
+    "Waking up between 5–7 AM helps maintain a fresh and active routine."
+  ]
+},
+{
+  "tag": "news_and_updates",
+  "patterns": [
+    "Give me the latest news",
+    "What's happening in the world?",
+    "Any news about India?",
+    "What's trending now?",
+    "Update me with current affairs"
+  ],
+  "responses": [
+    "I'm not connected to live news, but you can check apps like Inshorts or Google News.",
+    "Try checking trending topics on Twitter or news apps for the latest updates.",
+    "You can use platforms like DailyHunt or News18 for daily Indian news."
+  ]
+},
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
